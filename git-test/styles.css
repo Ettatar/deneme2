@@ -1,0 +1,43 @@
+body, html{
+    margin :0;
+    padding: 0;
+    height: 100%;
+}
+
+.background{
+    background-image: url('Images/enarkaplan.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-panel{
+    background-color: white;
+    background-image: url(Images/maviarkaplan.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    max-width: 300px;
+    width: 100%;
+}
+
+
+.qr-image{
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px black;
+}
+
+.description{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
